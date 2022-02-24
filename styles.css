@@ -1,0 +1,26 @@
+body {
+    background: wheat;
+}
+
+html,
+body,
+.view {
+    height:100%;
+}
+
+.navbar-brand {
+    color: yellow !important;
+}
+
+.profile-photo {
+    width:100px;
+    height:auto;
+}
+
+.flex-menu {
+    display:flex;
+}
+
+.flex-menu li:not(:last-child) {
+    margin-right:100px;
+}
